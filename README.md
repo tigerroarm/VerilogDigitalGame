@@ -1,0 +1,2 @@
+# VerilogDigitalGame
+VerilogDigitalGame of HUST.
