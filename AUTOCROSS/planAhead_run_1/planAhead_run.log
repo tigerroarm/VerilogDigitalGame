@@ -1,0 +1,82 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/mudifan/Desktop/AUTOCROSS1.0/pa.fromHdl.tcl
+# create_project -name AUTOCROSS1.0 -dir "C:/Users/mudifan/Desktop/AUTOCROSS1.0/planAhead_run_3" -part xc7a100tcsg324-1
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 433.328 ; gain = 67.645
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "top.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/mudifan/Desktop/AUTOCROSS1.0/top.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/score0.ngc}]
+# add_files [list {ipcore_dir/chinesescore.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/score0.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/chinesescore.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {frequencydiv.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vga.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {song.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {key.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {control.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {top.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top top $srcset
+# add_files [list {top.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/chinesescore.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/score.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/score0.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-1
+Using Verific elaboration
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/ipcore_dir/score0.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/ipcore_dir/chinesescore.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/frequencydiv.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/vga.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/song.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/key.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/control.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/AUTOCROSS1.0/top.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design score0.ngc ...
+WARNING:NetListWriters:298 - No output is written to score0.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file score0.edif ...
+ngc2edif: Total memory usage is 86712 kilobytes
+
+Reading core file 'C:/Users/mudifan/Desktop/AUTOCROSS1.0/ipcore_dir/score0.ngc' for (cell view 'score0', library 'work', file 'score0.v')
+Parsing EDIF File [./.Xil/PlanAhead-7036-DESKTOP-QJB0LKF/ngc2edif/score0.edif]
+open_rtl_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 475.605 ; gain = 42.277
+INFO: [Common 17-344] 'open_rtl_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Apr 26 10:14:06 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

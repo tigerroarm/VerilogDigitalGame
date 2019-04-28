@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/score0.v"
+verilog work "ipcore_dir/member.v"
+verilog work "ipcore_dir/fenshue.v"
+verilog work "control.v"

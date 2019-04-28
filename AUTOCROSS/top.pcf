@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Apr 26 19:01:38 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "out" LOCATE = SITE "A11" LEVEL 1;
+COMP "vsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "ps2_clk" LOCATE = SITE "F4" LEVEL 1;
+COMP "ps2_state" LOCATE = SITE "H17" LEVEL 1;
+COMP "disp_RGB<3>" LOCATE = SITE "B7" LEVEL 1;
+COMP "disp_RGB<4>" LOCATE = SITE "C6" LEVEL 1;
+COMP "disp_RGB<1>" LOCATE = SITE "D7" LEVEL 1;
+COMP "disp_RGB<2>" LOCATE = SITE "C7" LEVEL 1;
+COMP "disp_RGB<0>" LOCATE = SITE "D8" LEVEL 1;
+COMP "disp_RGB<9>" LOCATE = SITE "B4" LEVEL 1;
+COMP "disp_RGB<7>" LOCATE = SITE "A6" LEVEL 1;
+COMP "disp_RGB<8>" LOCATE = SITE "A3" LEVEL 1;
+COMP "disp_RGB<5>" LOCATE = SITE "A5" LEVEL 1;
+COMP "disp_RGB<6>" LOCATE = SITE "B6" LEVEL 1;
+COMP "hsync" LOCATE = SITE "B11" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "V10" LEVEL 1;
+COMP "ps2_data" LOCATE = SITE "B2" LEVEL 1;
+COMP "disp_RGB<11>" LOCATE = SITE "A4" LEVEL 1;
+COMP "disp_RGB<10>" LOCATE = SITE "C5" LEVEL 1;
+SCHEMATIC END;
+

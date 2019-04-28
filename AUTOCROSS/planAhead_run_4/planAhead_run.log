@@ -1,0 +1,126 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/pa.fromHdl.tcl
+# create_project -name AUTOCROSS1.0 -dir "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/planAhead_run_4" -part xc7a100tcsg324-1
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "top.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/score0.ngc}]
+# add_files [list {ipcore_dir/fenshue.ngc}]
+# add_files [list {ipcore_dir/member.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/score0.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/member.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/fenshue.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {control.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top control $srcset
+# add_files [list {top.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/chinesescore.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/fen.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/fenshu.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/fenshu2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/fenshue.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/member.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/score.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/score0.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-1
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/ipcore_dir/score0.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/ipcore_dir/member.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/ipcore_dir/fenshue.v" into library work
+Analyzing Verilog file "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/control.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design score0.ngc ...
+WARNING:NetListWriters:298 - No output is written to score0.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file score0.edif ...
+ngc2edif: Total memory usage is 86224 kilobytes
+
+Reading core file 'C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/ipcore_dir/score0.ngc' for (cell view 'score0', library 'work', file 'score0.v')
+Parsing EDIF File [./.Xil/PlanAhead-12132-DESKTOP-QJB0LKF/ngc2edif/score0.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-12132-DESKTOP-QJB0LKF/ngc2edif/score0.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fenshue.ngc ...
+WARNING:NetListWriters:298 - No output is written to fenshue.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fenshue.edif ...
+ngc2edif: Total memory usage is 86224 kilobytes
+
+Reading core file 'C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/ipcore_dir/fenshue.ngc' for (cell view 'fenshue', library 'work', file 'fenshue.v')
+Parsing EDIF File [./.Xil/PlanAhead-12132-DESKTOP-QJB0LKF/ngc2edif/fenshue.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-12132-DESKTOP-QJB0LKF/ngc2edif/fenshue.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design member.ngc ...
+WARNING:NetListWriters:298 - No output is written to member.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file member.edif ...
+ngc2edif: Total memory usage is 94416 kilobytes
+
+Reading core file 'C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/ipcore_dir/member.ngc' for (cell view 'member', library 'work', file 'member.v')
+Parsing EDIF File [./.Xil/PlanAhead-12132-DESKTOP-QJB0LKF/ngc2edif/member.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-12132-DESKTOP-QJB0LKF/ngc2edif/member.edif]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'hsync' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:7]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'up' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:9]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'vsync' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:10]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'up' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:15]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'hsync' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:16]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'vsync' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:17]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'out' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:20]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sel' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:21]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'out' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:24]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sel' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:25]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'down' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:54]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'down' [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf:57]
+Finished Parsing UCF File [C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/top.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 2e647444
+open_rtl_design: Time (s): elapsed = 00:00:28 . Memory (MB): peak = 820.602 ; gain = 373.770
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {hc[9]} {hc[8]} {hc[7]} {hc[6]} {hc[5]} {hc[4]} {hc[3]} {hc[2]} {hc[1]} {hc[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {score[9]} {score[8]} {score[7]} {score[6]} {score[5]} {score[4]} {score[3]} {score[2]} {score[1]} {score[0]}]]
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Apr 26 16:33:14 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

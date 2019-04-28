@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Apr 26 16:31:17 2018
+# Process ID: 12132
+# Log file: C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {hc[9]} {hc[8]} {hc[7]} {hc[6]} {hc[5]} {hc[4]} {hc[3]} {hc[2]} {hc[1]} {hc[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {score[9]} {score[8]} {score[7]} {score[6]} {score[5]} {score[4]} {score[3]} {score[2]} {score[1]} {score[0]}]]

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/control.xst" -ofn "C:/Users/mudifan/Desktop/chengshen/AUTOCROSS1.0/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7a100t-csg324-1 control.ngc control.ngd  

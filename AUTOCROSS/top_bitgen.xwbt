@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mudifan\Desktop\chengshen\AUTOCROSS1.0\top.ncd
+OUTFILE=C:\Users\mudifan\Desktop\chengshen\AUTOCROSS1.0\top.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\mudifan\Desktop\chengshen\AUTOCROSS1.0
+LICENSE=WebPack
+USER_INFO=211451751_0_0_133

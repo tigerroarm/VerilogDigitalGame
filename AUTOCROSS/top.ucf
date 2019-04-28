@@ -1,0 +1,68 @@
+
+
+NET "disp_RGB[2]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[1]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "hsync" IOSTANDARD = LVCMOS33;
+NET "vsync" IOSTANDARD = LVCMOS33;
+
+
+NET "clk" LOC = E3;
+NET "hsync" LOC = B11;
+NET "vsync" LOC = B12;
+
+
+NET "out" IOSTANDARD = LVCMOS33;
+
+
+NET "out" LOC = A11;
+
+
+NET "disp_RGB[11]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[10]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[9]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[8]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[7]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[6]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[5]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[4]" IOSTANDARD = LVCMOS33;
+NET "disp_RGB[3]" IOSTANDARD = LVCMOS33;
+
+
+NET "disp_RGB[11]" LOC = A4;
+NET "disp_RGB[10]" LOC = C5;
+NET "disp_RGB[9]" LOC = B4;
+NET "disp_RGB[8]" LOC = A3;
+NET "disp_RGB[7]" LOC = A6;
+NET "disp_RGB[6]" LOC = B6;
+NET "disp_RGB[5]" LOC = A5;
+NET "disp_RGB[4]" LOC = C6;
+NET "disp_RGB[3]" LOC = B7;
+NET "disp_RGB[2]" LOC = C7;
+NET "disp_RGB[1]" LOC = D7;
+NET "disp_RGB[0]" LOC = D8;
+
+
+NET "rst_n"      	LOC = V10;
+NET "ps2_data"    	LOC = B2;
+NET "ps2_clk"     LOC = F4;
+NET "ps2_state"     LOC = H17;
+
+
+
+
+NET "rst_n"      	IOSTANDARD = LVCMOS33;
+NET "ps2_data"    	IOSTANDARD = LVCMOS33;
+NET "ps2_clk"    IOSTANDARD = LVCMOS33;
+NET "ps2_state"     IOSTANDARD = LVCMOS33;
+
+
+
+NET "ps2_data"    PULLUP;
+NET "ps2_clk"     PULLUP;
+
+
+
+# PlanAhead Generated physical constraints 
+
